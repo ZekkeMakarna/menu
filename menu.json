@@ -51,11 +51,17 @@
         "description": "Ekstra parmesan peyniri.",
         "price": "80 TL",
         "badge": ""
+      },
+      {
+        "name": "Ek-1 MAKARNA",
+        "description": "Peynir sosis",
+        "price": "280",
+        "badge": ""
       }
     ]
   },
   {
-    "id": "tavuklar",
+    "id": "tavuk-soteler",
     "title": "Tavuk Soteler",
     "subtitle": "Sıcak ve lezzetli",
     "items": [
@@ -105,7 +111,7 @@
     ]
   },
   {
-    "id": "kahvalti",
+    "id": "kahvalti-cesitleri",
     "title": "Kahvaltı Çeşitleri",
     "subtitle": "Güne lezzetle başlayın",
     "items": [
