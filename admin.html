@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zekke Menü Yönetim Paneli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header class="admin-header">
+    <div>
+      <span class="kicker">ZEKKE MAKARNA</span>
+      <h1>Menü Yönetim Paneli</h1>
+      <p>Ürünleri ve kategorileri düzenleyin, sonra yeni <strong>menu.json</strong> dosyasını indirin.</p>
+    </div>
+    <a class="ghost-btn" href="index.html" target="_blank">Menüyü Görüntüle</a>
+  </header>
+
+  <main class="admin-layout">
+    <aside class="sidebar">
+      <button class="primary-btn" id="addCategoryBtn">+ Yeni Kategori</button>
+      <button class="secondary-btn" id="importBtn">menu.json İçe Aktar</button>
+      <input id="fileInput" type="file" accept=".json,application/json" hidden>
+      <button class="success-btn" id="downloadBtn">Güncel menu.json İndir</button>
+
+      <div class="help">
+        <strong>Nasıl güncellenir?</strong>
+        <ol>
+          <li>Düzenlemeleri yapın.</li>
+          <li>menu.json dosyasını indirin.</li>
+          <li>GitHub'daki eski menu.json dosyasını yenisiyle değiştirin.</li>
+        </ol>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="toolbar">
+        <input id="adminSearch" type="search" placeholder="Ürün veya kategori ara...">
+        <button class="secondary-btn small" id="loadServerBtn">GitHub'daki Menüyü Yükle</button>
+      </div>
+
+      <div id="status" class="status"></div>
+      <div id="categories"></div>
+    </section>
+  </main>
+
+  <template id="categoryTemplate">
+    <section class="category-card">
+      <div class="category-head">
+        <div class="category-fields">
+          <input class="category-title" placeholder="Kategori adı">
+          <input class="category-subtitle" placeholder="Kategori alt başlığı">
+        </div>
+        <div class="head-actions">
+          <button class="icon-btn move-up" title="Yukarı taşı">↑</button>
+          <button class="icon-btn move-down" title="Aşağı taşı">↓</button>
+          <button class="danger-btn delete-category">Kategoriyi Sil</button>
+        </div>
+      </div>
+      <div class="items"></div>
+      <button class="add-item-btn">+ Bu kategoriye ürün ekle</button>
+    </section>
+  </template>
+
+  <template id="itemTemplate">
+    <article class="item-card">
+      <div class="item-grid">
+        <label>Ürün adı<input class="item-name" placeholder="Ör. Penne Arrabiata"></label>
+        <label>Fiyat<input class="item-price" placeholder="Ör. 250 TL"></label>
+        <label class="wide">Açıklama<textarea class="item-description" rows="2"></textarea></label>
+        <label>Etiket<input class="item-badge" placeholder="Ör. Şefin önerisi"></label>
+      </div>
+      <div class="item-actions">
+        <button class="icon-btn item-up" title="Yukarı taşı">↑</button>
+        <button class="icon-btn item-down" title="Aşağı taşı">↓</button>
+        <button class="danger-btn delete-item">Ürünü Sil</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="admin.js"></script>
+</body>
+</html>

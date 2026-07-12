@@ -1,0 +1,212 @@
+[
+  {
+    "id": "makarnalar",
+    "title": "Makarnalar",
+    "subtitle": "Taze ve doyurucu",
+    "items": [
+      {
+        "name": "Penne Arrabiata",
+        "description": "Acı biber, zeytinyağı, fesleğen, karabiber, toz kırmızıbiber, domates.",
+        "price": "250 TL",
+        "badge": "Acılı"
+      },
+      {
+        "name": "Penne Napoliten",
+        "description": "Domates, fesleğen, sarımsak, kekik, karabiber, parmesan peyniri.",
+        "price": "275 TL",
+        "badge": ""
+      },
+      {
+        "name": "Penne Körili",
+        "description": "Krema, köri, mantar, biber.",
+        "price": "250 TL",
+        "badge": ""
+      },
+      {
+        "name": "Fusilli Pesto",
+        "description": "Fesleğen, zeytinyağı, çam fıstığı, ceviz, toz parmesan, kekik, sarımsak.",
+        "price": "350 TL",
+        "badge": "Şefin önerisi"
+      },
+      {
+        "name": "Fusilli Limon Soslu",
+        "description": "Krema, sarımsak, zeytinyağı, limon suyu, zest.",
+        "price": "375 TL",
+        "badge": ""
+      },
+      {
+        "name": "Fettuccini Alfredo",
+        "description": "Krema, mantar, zeytinyağı, tereyağı, karabiber.",
+        "price": "350 TL",
+        "badge": ""
+      },
+      {
+        "name": "Ravioli Kremalı",
+        "description": "Krema, karabiber, parmesan peyniri.",
+        "price": "400 TL",
+        "badge": ""
+      },
+      {
+        "name": "Ek Parmesan Peyniri",
+        "description": "Ekstra parmesan peyniri.",
+        "price": "80 TL",
+        "badge": ""
+      }
+    ]
+  },
+  {
+    "id": "tavuklar",
+    "title": "Tavuk Soteler",
+    "subtitle": "Sıcak ve lezzetli",
+    "items": [
+      {
+        "name": "BBQ Soslu Tavuk",
+        "description": "BBQ sos, mantar, kırmızı biber, yeşil biber, kekik, pul biber.",
+        "price": "275 TL",
+        "badge": ""
+      },
+      {
+        "name": "Soya Soslu Tavuk",
+        "description": "Soya sos, mantar, kırmızı biber, yeşil biber, pul biber.",
+        "price": "275 TL",
+        "badge": ""
+      },
+      {
+        "name": "Körili Tavuk",
+        "description": "Köri, mantar, kırmızı biber, yeşil biber, kekik, pul biber.",
+        "price": "275 TL",
+        "badge": ""
+      }
+    ]
+  },
+  {
+    "id": "menuler",
+    "title": "Menüler",
+    "subtitle": "Avantajlı kombinler",
+    "items": [
+      {
+        "name": "BBQ Tavuk & Körili Makarna & İçecek Menü",
+        "description": "BBQ soslu tavuk, körili makarna ve seçili içecek.",
+        "price": "450 TL",
+        "badge": "Avantajlı"
+      },
+      {
+        "name": "Soya Soslu Tavuk & Arrabiata Makarna & İçecek Menü",
+        "description": "Soya soslu tavuk, arrabiata makarna ve seçili içecek.",
+        "price": "450 TL",
+        "badge": "Avantajlı"
+      },
+      {
+        "name": "Körili Tavuk & Napoliten Makarna & İçecek Menü",
+        "description": "Körili tavuk, napoliten makarna ve seçili içecek.",
+        "price": "450 TL",
+        "badge": "Avantajlı"
+      }
+    ]
+  },
+  {
+    "id": "kahvalti",
+    "title": "Kahvaltı Çeşitleri",
+    "subtitle": "Güne lezzetle başlayın",
+    "items": [
+      {
+        "name": "Tek Kişilik Kahvaltı Tabağı",
+        "description": "Yumurta, peynir, reçel, bal, kakao kreması, yeşil zeytin, siyah zeytin.",
+        "price": "200 TL",
+        "badge": ""
+      },
+      {
+        "name": "İki Kişilik Kahvaltı Tabağı",
+        "description": "Yumurta, peynir, reçel, bal, kakao kreması, yeşil zeytin, siyah zeytin.",
+        "price": "350 TL",
+        "badge": ""
+      },
+      {
+        "name": "Sebzeli Omlet",
+        "description": "Mantar, yeşil biber, kırmızı biber.",
+        "price": "225 TL",
+        "badge": ""
+      },
+      {
+        "name": "Peynirli Omlet",
+        "description": "Beyaz peynir, kaşar peyniri.",
+        "price": "225 TL",
+        "badge": ""
+      },
+      {
+        "name": "Patates Kızartması",
+        "description": "Sıcak servis edilir.",
+        "price": "175 TL",
+        "badge": ""
+      }
+    ]
+  },
+  {
+    "id": "tatlilar",
+    "title": "Tatlılar",
+    "subtitle": "Tatlı bir final",
+    "items": [
+      {
+        "name": "Magnolia",
+        "description": "Günlük hazırlanır.",
+        "price": "175 TL",
+        "badge": ""
+      },
+      {
+        "name": "Cheesecake",
+        "description": "Günlük çeşit için servis personeline danışınız.",
+        "price": "200 TL",
+        "badge": ""
+      }
+    ]
+  },
+  {
+    "id": "icecekler",
+    "title": "İçecekler",
+    "subtitle": "Soğuk ve ferahlatıcı",
+    "items": [
+      {
+        "name": "Cola 330 mL",
+        "description": "Soğuk servis edilir.",
+        "price": "60 TL",
+        "badge": ""
+      },
+      {
+        "name": "Ice Tea Limon 330 mL",
+        "description": "Soğuk servis edilir.",
+        "price": "60 TL",
+        "badge": ""
+      },
+      {
+        "name": "Ice Tea Şeftali 330 mL",
+        "description": "Soğuk servis edilir.",
+        "price": "60 TL",
+        "badge": ""
+      },
+      {
+        "name": "Meyve Suyu 330 mL",
+        "description": "Mevcut çeşitler için servis personeline danışınız.",
+        "price": "65 TL",
+        "badge": ""
+      },
+      {
+        "name": "Gazoz 200 mL",
+        "description": "Soğuk servis edilir.",
+        "price": "60 TL",
+        "badge": ""
+      },
+      {
+        "name": "Sade Maden Suyu 20 cl",
+        "description": "Soğuk servis edilir.",
+        "price": "40 TL",
+        "badge": ""
+      },
+      {
+        "name": "Meyveli Maden Suyu 200 mL",
+        "description": "Soğuk servis edilir.",
+        "price": "50 TL",
+        "badge": ""
+      }
+    ]
+  }
+]

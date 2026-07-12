@@ -1,0 +1,50 @@
+:root{
+  --green:#063d2b; --green2:#032d20; --gold:#d8b064; --cream:#f6f0e4;
+  --line:rgba(216,176,100,.25); --danger:#b53a3a; --success:#2f8d5b;
+}
+*{box-sizing:border-box}
+body{margin:0;background:#f3efe6;color:#173a2f;font-family:Montserrat,sans-serif}
+button,input,textarea{font:inherit}
+button{cursor:pointer}
+.admin-header{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:34px max(24px,calc((100vw - 1200px)/2));background:var(--green2);color:var(--cream);border-bottom:3px solid var(--gold)}
+.admin-header h1{margin:5px 0;font:700 clamp(30px,4vw,48px) "Playfair Display",serif}
+.admin-header p{margin:0;color:rgba(255,255,255,.72)}
+.kicker{color:var(--gold);font-size:11px;letter-spacing:.25em;font-weight:700}
+.admin-layout{width:min(1200px,calc(100% - 30px));margin:28px auto;display:grid;grid-template-columns:260px 1fr;gap:22px}
+.sidebar{position:sticky;top:20px;align-self:start;display:grid;gap:10px;padding:18px;background:white;border-radius:18px;box-shadow:0 15px 45px rgba(0,0,0,.08)}
+.primary-btn,.secondary-btn,.success-btn,.ghost-btn,.danger-btn,.add-item-btn,.icon-btn{border:0;border-radius:12px;padding:12px 15px;font-weight:700}
+.primary-btn{background:var(--gold);color:var(--green2)}
+.secondary-btn{background:#e8e2d6;color:var(--green2)}
+.success-btn{background:var(--success);color:white}
+.ghost-btn{border:1px solid var(--line);color:var(--cream);text-decoration:none}
+.danger-btn{background:#fff0f0;color:var(--danger);border:1px solid #f1caca}
+.add-item-btn{width:100%;margin-top:12px;background:#edf5f0;color:var(--green)}
+.icon-btn{padding:9px 12px;background:#eee8dc;color:var(--green2)}
+.small{padding:10px 13px}
+.help{margin-top:10px;padding:13px;background:#f7f3ea;border-radius:12px;font-size:12px;line-height:1.6}
+.help ol{padding-left:18px;margin-bottom:0}
+.content{min-width:0}
+.toolbar{display:flex;gap:10px;margin-bottom:14px}
+.toolbar input{flex:1;padding:13px 15px;border:1px solid #d8d0c2;border-radius:12px;background:white}
+.status{min-height:24px;margin:7px 0 12px;font-size:13px;font-weight:600}
+.category-card{margin-bottom:18px;padding:18px;background:white;border:1px solid #e1dacd;border-radius:18px;box-shadow:0 12px 35px rgba(0,0,0,.06)}
+.category-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;padding-bottom:14px;border-bottom:1px solid #eee7da}
+.category-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px;flex:1}
+.category-fields input,.item-grid input,.item-grid textarea{width:100%;padding:11px 12px;border:1px solid #d9d1c3;border-radius:10px;background:#fffcf6}
+.category-title{font-weight:800;font-size:18px}
+.head-actions,.item-actions{display:flex;gap:7px}
+.item-card{display:flex;gap:14px;align-items:end;margin-top:12px;padding:14px;background:#faf7f0;border:1px solid #e8e0d4;border-radius:14px}
+.item-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;flex:1}
+.item-grid label{display:grid;gap:5px;font-size:11px;font-weight:700;color:#5b6e66}
+.item-grid .wide{grid-column:1/3}
+.item-grid textarea{resize:vertical}
+@media(max-width:850px){
+ .admin-header{align-items:flex-start;flex-direction:column}
+ .admin-layout{grid-template-columns:1fr}
+ .sidebar{position:static}
+ .category-head,.item-card{flex-direction:column;align-items:stretch}
+ .category-fields,.item-grid{grid-template-columns:1fr}
+ .item-grid .wide{grid-column:auto}
+ .head-actions,.item-actions{justify-content:flex-end;flex-wrap:wrap}
+ .toolbar{flex-direction:column}
+}
