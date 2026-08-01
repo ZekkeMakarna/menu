@@ -1,49 +1,68 @@
 [
   {
+    "id": "alarjen-madde-uyarisi",
+    "title": "ALARJEN MADDE UYARISI",
+    "subtitle": "Kategori açıklaması",
+    "items": [
+      {
+        "name": "Alarjen madde",
+        "description": "Alerjen Uyarısı: Ürünlerimiz gluten (buğday), yumurta, süt ve süt ürünleri (krema, peynir), tavuk, sarımsak, karabiber ve yer fıstığı / kuruyemiş içermektedir. Ciddi veya yüksek riskli alerjisi olan misafirlerimizin sipariş vermeden önce servis personelimizi bilgilendirmesini rica ederiz.",
+        "price": "0 TL",
+        "badge": ""
+      }
+    ]
+  },
+  {
     "id": "makarnalar",
     "title": "Makarnalar",
     "subtitle": "Taze ve doyurucu",
     "items": [
       {
+        "name": "Fettuccini Alfredo",
+        "description": "Krema, tavuk, mantar, zeytinyağı, tereyağı, karabiber.\n400 g 350 TL / 500 g 400 TL / 600 g 450 TL",
+        "price": "400TL",
+        "badge": "600-650 Kcal"
+      },
+      {
+        "name": "Zekke Spesiyal",
+        "description": "Krema, tavuk, kaşar, mantar, biber.\n400 g 325 TL / 500 g 350 TL / 600 g 400 TL",
+        "price": "325 TL",
+        "badge": "575-600 Kcal"
+      },
+      {
         "name": "Penne Arrabiata",
-        "description": "Acı biber, zeytinyağı, fesleğen, karabiber, toz kırmızıbiber, domates.",
-        "price": "250 TL",
-        "badge": "Acılı"
+        "description": "Acı biber, zeytinyağı, fesleğen, karabiber, toz kırmızıbiber, domates.\n400 g 200 TL / 500 g 225 TL / 600 g 250 TL",
+        "price": "200 TL",
+        "badge": "400-450 Kcal"
       },
       {
         "name": "Penne Napoliten",
-        "description": "Domates, fesleğen, sarımsak, kekik, karabiber, parmesan peyniri.",
-        "price": "275 TL",
-        "badge": ""
+        "description": "Domates, fesleğen, sarımsak, kekik, karabiber, parmesan peyniri.\n400 g 200 TL / 500 g 225 TL / 600 g 250 TL",
+        "price": "200 TL",
+        "badge": "400450 Kcal"
       },
       {
         "name": "Penne Körili",
-        "description": "Krema, köri, mantar, biber.",
-        "price": "250 TL",
-        "badge": ""
+        "description": "Krema, köri, mantar, biber.\n400 g 200 TL / 500 g 225 TL / 600 g 250 TL",
+        "price": "200 TL",
+        "badge": "500-550 Kcal"
       },
       {
         "name": "Fusilli Pesto",
-        "description": "Fesleğen, zeytinyağı, çam fıstığı, ceviz, toz parmesan, kekik, sarımsak.",
-        "price": "350 TL",
-        "badge": "Şefin önerisi"
+        "description": "Fesleğen, zeytinyağı, çam fıstığı, ceviz, toz parmesan, kekik, sarımsak.\n400 g 300 TL / 500 g 325 TL / 600 g 350 TL",
+        "price": "300 TL",
+        "badge": "500-550  Kcal"
       },
       {
-        "name": "Fusilli Limon Soslu",
-        "description": "Krema, sarımsak, zeytinyağı, limon suyu, zest.",
-        "price": "375 TL",
-        "badge": ""
-      },
-      {
-        "name": "Fettuccini Alfredo",
-        "description": "Krema, mantar, zeytinyağı, tereyağı, karabiber.",
-        "price": "350 TL",
-        "badge": ""
-      },
-      {
-        "name": "Ravioli Kremalı",
-        "description": "Krema, karabiber, parmesan peyniri.",
+        "name": "Ravioli",
+        "description": "Krema, karabiber, parmesan peyniri.\n400 g 400TL / 500 g 450TL / 600 g 500TL",
         "price": "400 TL",
+        "badge": "450-500 Kcal"
+      },
+      {
+        "name": "Ek Tavuk Parçası",
+        "description": "",
+        "price": "100 TL",
         "badge": ""
       },
       {
@@ -61,21 +80,21 @@
     "items": [
       {
         "name": "BBQ Soslu Tavuk",
-        "description": "BBQ sos, mantar, kırmızı biber, yeşil biber, kekik, pul biber.",
+        "description": "",
         "price": "275 TL",
-        "badge": ""
+        "badge": "325-350 Kcal"
       },
       {
         "name": "Soya Soslu Tavuk",
         "description": "Soya sos, mantar, kırmızı biber, yeşil biber, pul biber.",
         "price": "275 TL",
-        "badge": ""
+        "badge": "300-325 Kcal"
       },
       {
         "name": "Körili Tavuk",
         "description": "Köri, mantar, kırmızı biber, yeşil biber, kekik, pul biber.",
         "price": "275 TL",
-        "badge": ""
+        "badge": "325-350 Kcal"
       }
     ]
   },
@@ -88,19 +107,38 @@
         "name": "BBQ Tavuk & Körili Makarna & İçecek Menü",
         "description": "BBQ soslu tavuk, körili makarna ve seçili içecek.",
         "price": "450 TL",
-        "badge": "Avantajlı"
+        "badge": "700-750 Kcal"
       },
       {
         "name": "Soya Soslu Tavuk & Arrabiata Makarna & İçecek Menü",
         "description": "Soya soslu tavuk, arrabiata makarna ve seçili içecek.",
         "price": "450 TL",
-        "badge": "Avantajlı"
+        "badge": "650-700 Kcal"
       },
       {
         "name": "Körili Tavuk & Napoliten Makarna & İçecek Menü",
         "description": "Körili tavuk, napoliten makarna ve seçili içecek.",
         "price": "450 TL",
-        "badge": "Avantajlı"
+        "badge": "700-750 Kcal"
+      }
+    ]
+  },
+  {
+    "id": "sandvicler",
+    "title": "Sandviçler",
+    "subtitle": "Kategori açıklaması",
+    "items": [
+      {
+        "name": "5 Malzeme",
+        "description": "Kaşar, salam, yeşillik, domates, salatalık.",
+        "price": "175 TL",
+        "badge": "300-350 Kcal"
+      },
+      {
+        "name": "7 Malzeme",
+        "description": "Kaşar, hindi füme, et şarküteri ürünü, salam, yeşillik, domates, salatalık.",
+        "price": "300 TL",
+        "badge": "350-400 Kcal"
       }
     ]
   },
@@ -112,32 +150,32 @@
       {
         "name": "Tek Kişilik Kahvaltı Tabağı",
         "description": "Yumurta, peynir, reçel, bal, kakao kreması, yeşil zeytin, siyah zeytin.",
-        "price": "200 TL",
-        "badge": ""
+        "price": "250 TL",
+        "badge": "200 Kcal"
       },
       {
         "name": "İki Kişilik Kahvaltı Tabağı",
         "description": "Yumurta, peynir, reçel, bal, kakao kreması, yeşil zeytin, siyah zeytin.",
-        "price": "350 TL",
-        "badge": ""
+        "price": "450 TL",
+        "badge": "400 Kcal"
       },
       {
         "name": "Sebzeli Omlet",
-        "description": "Mantar, yeşil biber, kırmızı biber.",
+        "description": "Mantar, yeşil biber, kırmızı biber, garnitür.",
         "price": "225 TL",
-        "badge": ""
+        "badge": "250 Kcal"
       },
       {
         "name": "Peynirli Omlet",
-        "description": "Beyaz peynir, kaşar peyniri.",
+        "description": "Beyaz peynir, kaşar peyniri, garnitür.",
         "price": "225 TL",
-        "badge": ""
+        "badge": "250 Kcal"
       },
       {
-        "name": "Patates Kızartması",
-        "description": "Sıcak servis edilir.",
-        "price": "175 TL",
-        "badge": ""
+        "name": "Kavurmalı Omlet",
+        "description": "Garnitür ile servis edilir.",
+        "price": "450 TL",
+        "badge": "400 Kcal"
       }
     ]
   },
@@ -147,16 +185,10 @@
     "subtitle": "Tatlı bir final",
     "items": [
       {
-        "name": "Magnolia",
-        "description": "Günlük hazırlanır.",
-        "price": "175 TL",
-        "badge": ""
-      },
-      {
-        "name": "Cheesecake",
-        "description": "Günlük çeşit için servis personeline danışınız.",
-        "price": "200 TL",
-        "badge": ""
+        "name": "Bisküvili Pasta",
+        "description": "",
+        "price": "75 TL",
+        "badge": "600 Kcal"
       }
     ]
   },
@@ -166,59 +198,46 @@
     "subtitle": "Soğuk ve ferahlatıcı",
     "items": [
       {
-        "name": "Cola 330 mL",
+        "name": "ColaTurka 330 mL",
         "description": "Soğuk servis edilir.",
-        "price": "60 TL",
+        "price": "75 TL",
         "badge": ""
       },
       {
-        "name": "Ice Tea Limon 330 mL",
+        "name": "Didi Limon 330 mL",
         "description": "Soğuk servis edilir.",
-        "price": "60 TL",
+        "price": "75 TL",
         "badge": ""
       },
       {
-        "name": "Ice Tea Şeftali 330 mL",
+        "name": "Didi Şeftali 330 mL",
         "description": "Soğuk servis edilir.",
-        "price": "60 TL",
+        "price": "75 TL",
         "badge": ""
       },
       {
         "name": "Meyve Suyu 330 mL",
         "description": "Mevcut çeşitler için servis personeline danışınız.",
-        "price": "65 TL",
+        "price": "75 TL",
         "badge": ""
       },
       {
         "name": "Gazoz 200 mL",
-        "description": "Soğuk servis edilir.",
-        "price": "60 TL",
+        "description": "Portakal, limon ve sade.",
+        "price": "75 TL",
         "badge": ""
       },
       {
         "name": "Sade Maden Suyu 20 cl",
         "description": "Soğuk servis edilir.",
-        "price": "40 TL",
+        "price": "50TL",
         "badge": ""
       },
       {
         "name": "Meyveli Maden Suyu 200 mL",
-        "description": "Soğuk servis edilir.",
-        "price": "50 TL",
+        "description": "Limon, armut, elma, karadut.",
+        "price": "60 TL",
         "badge": ""
-      }
-    ]
-  },
-  {
-    "id": "et-soteler",
-    "title": "Et Soteler",
-    "subtitle": "Dana etinden soteler",
-    "items": [
-      {
-        "name": "Dana Kavurma",
-        "description": "...",
-        "price": "100",
-        "badge": "DANA"
       }
     ]
   }
